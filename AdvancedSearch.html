@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="grid">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"><a href="index.html">Google Search</a></div>
+
+        </div>
+        <h2><center>Google Advanced Search by MaxC</center></h2>
+        <h4>Find pages with...</h4>
+        
+            
+            <form action="https://google.com/search">
+                <div class="grid-advancedSearch">
+                    <div class="grid-item-advanced"><label for="allThese">all these words:</label></div>
+                    <div class="grid-item-advanced"><input class="advancedInput" type="text" id="allThese" name="as_q"></div>
+                    <div class="grid-item-advanced Description">Type the important words: tri-colour rat terrier</div>
+                    <div class="grid-item-advanced"><label for="thisExact">this exact word or phrase:</label></div>
+                    <div class="grid-item-advanced"><input class="advancedInput" type="text" id="thisExact" name="as_epq"></div>
+                    <div class="grid-item-advanced Description">Put exact words in quotes: "rat terrier"</div>
+                    <div class="grid-item-advanced"><label for="anyThese">any of these words:</label></div>
+                    <div class="grid-item-advanced"><input class="advancedInput" type="text" id="anyThese" name="as_oq"></div>
+                    <div class="grid-item-advanced Description">Type OR between all the words you want: miniature OR standard</div>
+                    <div class="grid-item-advanced"><label for="noneThese">none of these words::</label></div>
+                    <div class="grid-item-advanced"><input class="advancedInput" type="text" id="noneThese" name="as_eq"></div>
+                    <div class="grid-item-advanced Description">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+                    <div class="grid-item-advanced"></div>
+                    <input class="grid-item-advanced  button-Advanced" type="submit" name="tbm" value="Advanced Search">
+                    <div class="grid-item-advanced"></div>
+                </div>
+                
+                
+            </form>
+        
+    </body>
+</html>
